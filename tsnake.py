@@ -100,7 +100,7 @@ def make_food():
     global foody
     foodx = random.randint(1, width-1)
     foody = random.randint(1, height-1)
-    while snake_hit(foodx, foody) and border_hit(foodx, foody):
+    while snake_hit(foodx, foody) or border_hit(foodx, foody):
         foodx = random.randint(1, width-1)
         foody = random.randint(1, height-1)
 
