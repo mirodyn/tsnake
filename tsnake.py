@@ -1,3 +1,4 @@
+# tsnake 1.0.0 by Mirodyn
 import keyboard
 import os
 import time
